@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TASTE THE COLOURS Demo</title>
+    <meta name="description" content="A simple test site - with the wrong fonts">
+    <meta name="author" content="Simon Anthony">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/lookAndFeel.css">
+</head>
+
+<body>
+
+    <div class="container colour">
+        <div>
+            <h1><span>TASTE THE COLOURS</span></h1></div>
+        <div class="column column1">
+            <a href="#">
+                <img src="assets/images/red.png" alt="Red food">
+                <div class="text">
+                    <h2>Red</h2> Red foods remind us of berries and soft fruits, so we anticipate a sweet taste.
+                </div>
+            </a>
+        </div>
+        <div class="column column3">
+            <a href="#">
+                <img src="assets/images/white.png" alt="White food">
+                <div class="text">
+                    <h2>White</h2> White foods evoke memories of salt and salty flavours, driving the expectation of a savoury treat.
+                </div>
+            </a>
+        </div>
+        <div class="column column2">
+            <a href="#">
+                <img src="assets/images/green.png" alt="Green food">
+                <div class="text">
+                    <h2>Green</h2> Fresh, zingy green colours are reminiscent of unripe fruit, promising sour or acid flavours
+                </div>
+            </a>
+        </div>
+
+    </div>
+    <!-- /column2 -->
+
+    <!-- /column3 -->
+
+
+    <!-- /.container -->
+    <div class="container shape">
+
+        <div class="column column1">
+            <div class="popupimage" href="assets/images/RectanglePortrait.png" id="#portraitModal" onClick="reply_click(this.id)">
+                <img src="assets/images/RectanglePortrait.png" alt="Portrait of food">
+            </div>
+        </div>
+        <!-- /column1 -->
+        <div class="column column3">
+            <h1>TASTE: A FIVE-SENSE EXPERIENCE</h1>
+            <div> Our visual senses provide up to 28% of our taste experience. This is a theory Instagram chef Jacques Ia Merde takes to the extreme. Serving up exquisite tasting plates
+                <br />- in fact made from gas station ingredients
+                <br />- to her thousands of followers, she demonstrates how visual techniques affect our perception of food.
+                <p>FOOD THAT LOOKS ITS BEST</p>Enhance the flavour of your food by using a variety of colours and shapes to entice the eyes.
+            </div>
+
+        </div>
+        <div class="column column2">
+            <div data-dismiss="modal"id="#appModal">
+
+                <div class="popupimage" href="assets/images/AppPic.png" alt="Picture of an app"><img src="assets/images/AppPic.png" alt="Picture of an app">
+            </div>
+        </div>
+        </div>
+        <div class="column column4">
+            <div class="popupimage" href="assets/images/carrots.png" id="#carrotsModal" onClick="reply_click(this.id)">
+
+                <img src="assets/images/carrots.png" alt="Coloured carrots">
+            </div>
+        </div>
+
+    </div>
+    <!-- /column2 -->
+
+    <!-- /column3 -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                    <div data-dismiss="modal">
+                        <img src="">
+                    </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+function reply_click(clicked_id)
+{
+    console.log(clicked_id);
+}
+</script>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="assets/bootstrap.min.js"></script>
+<script src="assets/script.js"></script>
+
+</html>

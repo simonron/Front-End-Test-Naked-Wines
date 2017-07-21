@@ -1,0 +1,190 @@
+@import "../node_modules/susy/sass/_susy.scss";
+@import "../node_modules/breakpoint-sass/stylesheets/breakpoint";
+@import "../partials/susyConfig";
+$primary-bg-color: #111111;
+$primary-color: #ffffff;
+body {
+    padding: 10px;
+    color: $primary-color;
+    h2 {
+        color: $primary-color;
+        background: $primary-bg-color;
+        margin-bottom: 5px;
+    }
+}
+.container {
+    display: block;
+}
+.holder {
+    background: #ccc;
+    background: $primary-bg-color;
+    @include span(12 of 12 last);
+    margin-bottom: 10px;
+}
+$exSmall: 0 480px;
+$small: 480px 600px;
+$medium: 600px 900px;
+$large: 900px 1200px;
+$exLarge: 1200px 5000px;
+body {
+    background-color: #fbeecb;
+    background: $primary-bg-color;
+    color: $primary-color;
+    @include breakpoint($exSmall) {
+        background: #f00;
+        background: $primary-bg-color;
+        transition: all 1.5s ease-in-out;
+    }
+    @include breakpoint($small) {
+        background: #ff0;
+        background: $primary-bg-color;
+        transition: all 1.5s ease-in-out;
+    }
+    @include breakpoint($medium) {
+        background: #f0f;
+        background: $primary-bg-color;
+        transition: all 1.5s ease-in-out;
+    }
+    @include breakpoint($large) {
+        background: #0ff;
+        background: $primary-bg-color;
+        transition: all 1.5s ease-in-out;
+    }
+    @include breakpoint($exLarge) {
+        background: #00f;
+        background: $primary-bg-color;
+        transition: all 1.5s ease-in-out;
+    }
+}
+.column1,
+.column3 {
+    background-color: #71dad2;
+    background: $primary-bg-color;
+}
+.column2 {
+    background: $primary-bg-color;
+}
+
+/**
+ - Text Styles
+ */
+
+h2 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: normal;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+}
+.column1 {
+    @include span(3 of 9);
+    transition: all 1.5s ease-in-out;
+}
+.column2 {
+    @include span(3 of 9);
+    @include clearfix;
+    transition: all 1.5s ease-in-out;
+}
+.column3 {
+    @include span(3 of 9 last);
+    transition: all 1.5s ease-in-out;
+}
+.column4 {
+    @include span(3 of 9);
+    @include clearfix;
+    transition: all 1.5s ease-in-out;
+    img {
+        margin-top: -40px;
+    }
+}
+
+/*exSmall*/
+
+@include breakpoint($exSmall) {
+    .column {
+        @include span(full);
+        padding: 5px 0px;
+        transition: all 1.5s ease-in-out;
+    }
+}
+
+/*small*/
+
+@include breakpoint($small) {
+    .column1 {
+        @include span(full);
+        padding-top: 20px;
+        transition: all 1.5s ease-in-out;
+    }
+    .column3 {
+        @include span(full);
+        padding-top: 20px;
+        transition: all 1.5s ease-in-out;
+    }
+    .column2 {
+        @include span(full);
+        padding-top: 20px;
+        transition: all 1.5s ease-in-out;
+    }
+    .column4 {
+        @include span(full);
+        transition: all 1.5s ease-in-out;
+    }
+}
+
+/*medium*/
+
+@include breakpoint($medium) {
+    .column1 {
+        @include span(6 of 12);
+        transition: all 1.5s ease-in-out;
+    }
+    .column3 {
+        @include span(6 of 12 last);
+        transition: all 1.5s ease-in-out;
+    }
+    .column2 {
+        @include span(6 of 12 last);
+        transition: all 1.5s ease-in-out;
+    }
+    .colour .column2 {
+        position: relative;
+        left: 25%;
+        top: 10vw;
+        padding-bottom: 10vw;
+        float: none;
+        z-index: -1;
+    }
+    .column4 {
+        @include span(full);
+        transition: all 1.5s ease-in-out;
+    }
+    
+    .shape .column2 {
+    width: 100%;
+    left: 0%;
+}
+}
+
+/*large*/
+
+@include breakpoint($large) {
+    div {
+        padding: 5px 0;
+    }
+}
+
+/*exLarge*/
+
+@include breakpoint($exLarge) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .column2 {
+        @include clearfix;
+    }
+    div {
+        //padding: 5px 0;
+    }
+}

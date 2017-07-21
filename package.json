@@ -1,0 +1,38 @@
+{
+	"name": "gulp",
+	"version": "0.1.1",
+	"description": "Sass, Livereload and static server",
+	"author": "Simon Anthony",
+	"devDependencies": {
+		"express": "latest",
+		"gulp": "latest",
+		"gulp-sass": "latest",
+		"susy": "^2",
+		"breakpoint-sass": "latest",
+		"gulp-csso": "latest",
+		"gulp-coffee": "latest",
+		"gulp-pug": "latest",
+		"express": "latest",
+		"marked": "latest",
+		"node-neat": "latest",
+		"gulp-connect": "latest",
+		"gulp-concat": "latest",
+		"gulp-csso": "latest",
+		"gulp-pug": "latest",
+		"gulp-livereload": "latest",
+		"gulp-sass": "latest",
+		"gulp-sourcemaps": "latest",
+		"gulp-uglify": "latest",
+		"gulp-util": "latest",
+		"node-bourbon": "latest",
+		"tiny-lr": "latest",
+		"node-normalize-scss":"latest"
+	},
+	"dependencies": {
+		"express": "latest",
+		"gulp-csso": "latest",
+		"gulp-pug": "latest",
+		"marked": "latest",
+		"node-neat": "latest"
+	}
+}

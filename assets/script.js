@@ -1,0 +1,1 @@
+window.addEventListener("click",function(o){console.log(o)},!1),$(document).ready(function(){$("div.popupimage").click(function(o){o.preventDefault(),$(".modal img").attr("src",$(this).attr("href")),$(".modal").modal("show")})});

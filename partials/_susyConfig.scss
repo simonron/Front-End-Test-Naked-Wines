@@ -1,0 +1,53 @@
+@import "../node_modules/node-normalize-scss/normalize";
+/*@import "compass";*/
+/*@import "susy";*/
+
+// Configuring Susy Defaults
+
+
+
+// The Container Mixin
+//@include container( [<length>] );
+// Note: Optional arguments are enclosed in []
+
+$susy: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  container: auto,
+  container-position: center,
+  columns: 9,
+  gutters: .12,
+  column-width: false,
+  global-box-sizing: content-box,
+  last-flow: to,
+  debug: (
+    image: hide,
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: top right,
+  ),
+/*  use-custom: (
+    background-image: true,
+    background-options: false,
+    box-sizing: true,
+    clearfix: false,
+    rem: true,
+  )*/
+);
+
+@include border-box-sizing; 
+
+@mixin clearfix {
+  @if susy-support(clearfix, (mixin: clearfix)) {
+    @include clearfix;
+  } @else {
+    &:after {
+      content:" ";
+      display: block;
+      clear: both;
+    }
+  }
+}
+

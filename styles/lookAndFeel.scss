@@ -1,0 +1,96 @@
+img {
+    width: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: arial;
+    overflow: visible !important;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    div {
+        h1 {
+            font-size: 24px;
+            font-weight: 100;
+            text-align: center;
+            span {
+                padding-bottom: 1em;
+                border-bottom: solid 1px #fff;
+            }
+            padding-bottom: 2em;
+        }
+    }
+    h2 {
+        font-size: 18px;
+        margin-bottom: 0px
+    }
+}
+
+div.text {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.8em;
+    font-weight: 100;
+}
+
+.shape .column {
+    padding: 50px 0 0 10px;
+    line-height: 1.4em;
+    h1 {
+        text-align: left;
+        line-height: 1.4em;
+    }
+}
+
+.shape .column3 div {
+    border-top: solid 1px #fff;
+    margin: -2.5em 0;
+    padding-top: 1em;
+    p {
+        color: #f00;
+        padding-top: 20px;
+        font-size: 14px;
+    }
+}
+
+
+
+.modal-content {
+    background: none;
+}
+
+.popupimage {
+    width: 100%;
+}
+
+.data a {
+    color: #ccc;
+}
+
+a:link {
+    color: #ccc;
+    text-decoration: none;
+    img {
+        padding: 1px;
+    }
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+    img {
+        border: solid 1px #00f;
+        padding: 0px;
+    }
+}
+
+a:visited {
+    color: #ccc;
+    text-decoration: none;
+}
