@@ -1,0 +1,98 @@
+/* line 1, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+img {
+  width: 100%; }
+
+/* line 5, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+body {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: arial;
+  overflow: visible !important; }
+
+/* line 12, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; }
+  /* line 17, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+  .container div h1 {
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    padding-bottom: 2em; }
+    /* line 21, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+    .container div h1 span {
+      padding-bottom: 1em;
+      border-bottom: solid 1px #fff; }
+  /* line 28, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+  .container h2 {
+    font-size: 18px;
+    margin-bottom: 0px; }
+
+/* line 34, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+div.text {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.8em;
+  font-weight: 100; }
+
+/* line 42, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+.shape .column {
+  padding: 50px 0 0 10px;
+  line-height: 1.4em; }
+  /* line 45, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+  .shape .column h1 {
+    text-align: left;
+    line-height: 1.4em; }
+
+/* line 51, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+.shape .column3 div {
+  border-top: solid 1px #fff;
+  margin: -2.5em 0;
+  padding-top: 1em; }
+  /* line 55, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+  .shape .column3 div p {
+    color: #f00;
+    padding-top: 20px;
+    font-size: 14px; }
+
+/* line 64, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+.modal-content {
+  background: none; }
+
+/* line 68, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+.popupimage {
+  width: 100%; }
+
+/* line 71, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+.modal-dialog img {
+  border-radius: 50px; }
+
+/* line 75, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+.data a {
+  color: #ccc; }
+
+/* line 79, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+a:link {
+  color: #ccc;
+  text-decoration: none; }
+  /* line 82, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+  a:link img {
+    padding: 1px; }
+
+/* line 87, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+a:hover {
+  color: #fff;
+  text-decoration: none; }
+  /* line 90, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+  a:hover img {
+    border: solid 1px #00f;
+    padding: 0px; }
+
+/* line 96, /Users/Cyberman/Documents/Front-End-Test-Naked-Wines/styles/lookAndFeel.scss */
+a:visited {
+  color: #ccc;
+  text-decoration: none; }
+
+/*# sourceMappingURL=lookAndFeel.css.map */
